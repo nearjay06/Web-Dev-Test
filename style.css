@@ -1,0 +1,173 @@
+body {
+ width: 100%;
+ height: 100%;
+ background-color:rgb(212, 212, 205);
+}
+
+h1{
+ text-align:center;
+ font-family:cambria;
+ font-size:50px;
+ color:#E15C14;
+}
+
+p {
+  text-align: center;
+}
+
+.menu ul{
+  list-style-type: none;
+  background-color:#191df0;
+  overflow:hidden;
+  height:68px;
+ }
+ .menu ul li a{
+  display:block;
+  float:left;
+  text-decoration:none;
+  padding-right: 40px;
+  padding-top: 25px;
+  font-family:georgia;
+  font-weight:bold;
+  font-size:16px;
+  color:white;
+
+ }
+
+ 
+ .file{
+  padding-left:20px;
+  padding-top:9%;
+  float:left;
+  font-family:cambria;
+  font-weight:bold;
+  font-size:13px;
+ }
+
+ .create{
+  font-family: cambria;
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+  padding: 3px;
+  color: black
+}
+
+.order2 h1{
+  color:black;
+  padding-bottom:20px;
+  padding-left: 30px
+  }
+ 
+  .exit{
+   float:right !important;
+  }
+
+  .file2{
+    font-family:cambria;
+    float:left;
+    font-size:13px;
+    font-weight:bold;
+    padding-top: 8%;
+    margin-right:20%;
+    padding-left:10px;
+  
+   }
+
+ table{
+  
+   margin-right: 20px;
+   color: black;
+   border: 2px solid rgb(93, 97, 105);
+   border-radius: 4px;
+   padding: 20px;
+   width:80%;
+   font-family: Cambria;
+   font-size:15px;
+   background-color:rgb(150, 167, 189); 
+   margin-left:80px; 
+   margin-top:3%;
+   border-collapse: collapse;
+   border-right:1px solid black;
+       
+}
+
+td,th{
+ padding: 10px;
+ font-family: Cambria;
+ font-size:15px;
+ border-bottom:1px solid black; 
+ border-left:1px solid black;
+ border-right: 1px solid black;
+ text-align:left;
+ 
+ }
+ table button{
+ font-size: 12px;
+ padding: 10px 24px;
+ font-family: cambria;
+ border-radius: 4px;
+ border: 2px solid royalblue;
+ 
+}
+
+
+ .fill{
+   font-family: cambria;
+   font-weight: bold;
+   font-size: 16px;
+   padding-top:2px;
+   margin-left:450px;
+  
+   }
+
+   textarea{
+     border:1px solid blue;
+     padding:3px;
+   }
+ .fill1 button {
+   padding: 10px;
+   border: 1px solid rgb(76, 77, 139);
+   font-family: cambria;
+   font-weight: bold;
+   border-radius: 10px;
+   margin-top: 10px;
+   background-color: plum;
+
+       }
+
+  .foot {padding-right:20px;
+    padding-top:3%;
+    float:right;
+    font-family:cambria;
+    font-weight:bold;
+    font-size:13px;}
+       
+ 
+ fill3 table{
+  margin-right: 20px;
+  color: black;
+  border: 2px solid rgb(0, 41, 128);
+  border-radius: 4px;
+   /* width:80%;*/
+  font-family: Cambria;
+  font-size:15px;
+  background-color:rgb(233, 225, 233); 
+  margin-left:350px; 
+  /* margin-top:3%; */
+  border-collapse: collapse;
+  border-right:1px solid black;
+  
+       
+}
+
+.fill3 td,th{
+padding: 10px;
+font-family: Cambria;
+font-size:15px;
+border-bottom:1px solid black; 
+border-left:1px solid black;
+border-right: 1px solid black;
+text-align:left;
+}
+
