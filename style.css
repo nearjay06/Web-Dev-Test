@@ -1,60 +1,182 @@
-body {
-  margin: 0;
-  min-width: 200px;
+@charset "UTF-8";
+
+header {
+  background-color: #71adad;
+  color: rgb(43, 35, 35);
+  text-align: center;
+  height: 70px;
+  width:55%;
+  border-radius: 8px;
+  box-shadow: 0px 2px 4px rgba(97, 197, 164, 0.15);
+  margin-left:15%;
+  margin-top:2%;
+  padding:8px;
+
+  
 }
 
-* {
-  box-sizing: border-box;
+header input{
+  width: 60%;
+  height: 60%;
+  float:left;
+  background:whitesmoke;
+  font-family:cambria;
+  font-size:15px;
+  border-radius:4px;
+  margin-left:5%; 
+  margin-top:8px; 
+  font-weight: bold;
+  color:black;
+  text-indent: 18px;
+  padding: 0px 60px 0px 0px;
+  box-shadow:none;
+  border-top-right-radius:25px;
+  border-bottom-right-radius: 25px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  outline: none;
+  border:0px;
+    
 }
 
-ul {
-  margin: 0;
-  padding: 0;
+h2{
+  text-align: center;
+  font-family:cambria;
+  font-size: 30px;
+  padding-right:20%;
+  
 }
 
-ul li {
-  cursor: pointer;
-  position: relative;
-  padding: 12px 8px 12px 40px;
-  list-style-type: none;
-  background: rgb(159, 218, 213);
-  font-size: 18px;
-  transition: 0.2s;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-}
+header button{
+  height:42px;
+  width:50px;
+  margin-top:8px;
+  right:44%;
+  z-index:2;
+  position:absolute;
+  appearance: none;
+  border-radius:20px;
+  box-shadow: none;
+  border:0px;
+  background: rgb(223, 226, 226);
+  
+  }
 
-ul li:nth-child(odd) {
-  background: #b3e9e4;
-}
+  .addBtn {
+    padding: 10px;
+    width: 25%;
+    color: rgb(10, 10, 10);
+    float: left;
+    text-align: center;
+    font-size: 15px;
+    cursor: pointer;
+    transition: 0.3s;
+    border-radius: 0;
+    font-family:cambria;
+    font-weight:bold;
+    outline:none;
+    border:0px;
+    box-shadow:none;
+    padding-left:3px;
+  }
+  
+  .addBtn:hover {
+    background-color: #bbb;
+    width:30px;
+    border-radius:4px;
+    outline:none;
+    border:0px;
+    box-shadow: none;
+  }
+
+  body{
+    background: #bbb;
+    margin: 0;
+    min-width: 80px;
+    height:80px;
+  }
+
+  .container{
+    width:100%;
+    
+  }
 
 
-ul li:hover {
-  background: #ddd;
-}
 
+  ul {
+    margin: 0;
+    padding: 0;
+    margin-left: 15%;
+    font-family:cambria;
+    color:black;
+    font-weight:bold;
+    width:56%;
+    margin-top:8px;
+    
+        
+  }
+  
+  ul li {
+    cursor: pointer;
+    position: relative;
+    padding: 12px 8px 12px 40px; 
+    list-style-type: none;
+    background: rgb(159, 218, 213);
+    font-size: 18px;
+    transition: 0.2s;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border-radius:5px;
+    box-shadow:0px 1px 2px;
+    margin: 0px 0 10px 0;
+    
+  } 
 
-ul li.checked {
+  ul li:nth-child(odd) {
+    background: #b3e9e4;
+  }
+  
+  ul li:hover {
+    background: #ddd;
+  }
+  
+  .pins {
+    width:100px;
+    height:50px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+
+  }
+
+  .myUL ul li .pins button{
+    width:50px;
+    height:50px;
+    float:left;
+    background:none;
+  }
+  
+
+  /* ul li.checked::before {
+    content: '';
+    position: absolute;
+    border-color: #fff;
+    border-style: solid;
+    border-width: 0 2px 2px 0;
+    top: 10px;
+    left: 16px;
+    transform: rotate(45deg);
+    height: 15px;
+    width: 7px;
+  } 
+  
+ ul li.checked {
   background: rgb(116, 236, 100);
   color: rgb(8, 5, 2);
   text-decoration: line-through;
-}
-
-ul li.checked::before {
-  content: '';
-  position: absolute;
-  border-color: #fff;
-  border-style: solid;
-  border-width: 0 2px 2px 0;
-  top: 10px;
-  left: 16px;
-  transform: rotate(45deg);
-  height: 15px;
-  width: 7px;
-}
-
+} */
 
 .close {
   position: absolute;
@@ -68,46 +190,3 @@ ul li.checked::before {
   color: white;
 }
 
-
-.header {
-  background-color: #537ace;
-  padding: 30px 40px;
-  color: white;
-  text-align: center;
-}
-
-
-.header:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-
-input {
-  margin: 0;
-  border: none;
-  border-radius: 0;
-  width: 75%;
-  padding: 10px;
-  float: left;
-  font-size: 16px;
-}
-
-
-.addBtn {
-  padding: 10px;
-  width: 25%;
-  background: #d9d9d9;
-  color: #555;
-  float: left;
-  text-align: center;
-  font-size: 16px;
-  cursor: pointer;
-  transition: 0.3s;
-  border-radius: 0;
-}
-
-.addBtn:hover {
-  background-color: #bbb;
-}

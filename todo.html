@@ -1,32 +1,79 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
 
-<html class="no-js"> 
+<html> 
  <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title></title>
-  <meta name="description" content="">
+  <title>Todo App</title>
+  <meta name="description" content=""> 
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" type="text/css" href="./style.css">
  </head>
  <body>
-  <div id="myDIV" class="header">
-  <h2 style="margin:5px">Joan's To Do List</h2>
-  <input type="text" id="myInput" placeholder="Title...">
-  <span onclick="newElement()" class="addBtn">Add</span>
-</div>
+    <h2 style="margin:5px">Todo App</h2>
+  <header>
+    <input type = "text" placeholder = "Type activity" id='put'>
+    <button id="plus">
+        <span onclick="newElement()" class="addBtn">Add </span>
+    </button>
+  </header>
 
-<ul id="myUL">
-  <li>Wake up</li>
-  <li class="checked">Say my prayers</li>
+ <div class="container">
+
+<ul class="myUL">
+  <li>Wake up </li>
+  <li>Say my prayers</li>
   <li>Read a book</li>
   <li>Workout for 1 hr</li>
   <li>Have breakfast</li>
   <li>Go to office</li>
+
+  <!-- <div class="pins">  
+    <button>    </button>
+    <button>    </button> -->
+  </div>
+
 </ul>
-<button onclick="newAlert()">submit</button>
+
+</div>
+
 <script src="./todo.js"></script>
 
 </body>
 
-</html>
+</html>  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
